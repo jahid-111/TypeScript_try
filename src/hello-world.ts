@@ -6,4 +6,4 @@ function message() {
     return `${hello} World`
 }
 
-message();
+console.log(message());
