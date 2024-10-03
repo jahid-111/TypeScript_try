@@ -39,3 +39,12 @@ if (bmw instanceof Human) {
 } else {
     console.log("No") //
 }
+
+
+
+let str: any = 'im a String Created with "Any"';
+let index: number = (str as string).indexOf("a"); //Type Assertion
+
+let index1: number = (<string>str).indexOf("a"); 
+
+
